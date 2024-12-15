@@ -1,0 +1,90 @@
+# Общие системные файлы
+.DS_Store
+Thumbs.db
+
+# CLion/JetBrains IDE специфические файлы
+.idea/
+*.iml
+
+# CLion CMake-specific
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# CMake output files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+_compile_commands.json
+compile_commands.json
+
+# Артефакты сборки
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.pch
+*.pdb
+
+# Логи
+*.log
+
+# Файлы отладочной информации
+*.dSYM/
+*.stackdump
+
+# Артефакты тестов
+*.gcda
+*.gcno
+*.gcov
+
+# Файлы для CLion debugger
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.name
+.idea/jsLibraryMappings.xml
+.idea/sqlDataSources.xml
+.idea/sqlDataSources.xml
+.idea/sqlDataSources.version
+.idea/dictionaries
+.idea/httpRequests
+.idea/tasks.xml
+
+# macOS специфические файлы
+*.DS_Store
+*.AppleDouble
+._*
+
+# Logs
+*.log
+
+# Local config files
+.env
+.vscode/
+.vscode/**
+
+# Библиотеки и пакеты (если используются)
+vendor/
+third_party/
+node_modules/
+
+# Исполняемые файлы
+a.out
+*.exe
+
+# Файлы отладки
+*.lldb
